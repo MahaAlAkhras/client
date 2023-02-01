@@ -1,0 +1,42 @@
+.sidenav {
+    height:100%; 
+    width:12rem; 
+    position: absolute; 
+    z-index:-1;
+    top: 0; 
+    left: 0;
+    background-color: #82C17A; 
+    overflow-x: hidden; 
+    padding-top:8rem;
+    display: block;
+  }
+  
+  .sidenav ul {
+    list-style: none;
+    margin:10rem;
+    padding:10rem;
+    display:contents;
+    align-items:baseline;
+    position: absolute;
+  }
+  
+  .sidenav li {
+    margin: 0;
+    
+  }
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    font-weight: bold;
+    font-family: inherit;
+  }
+  
+  .sidenav a:hover {
+    color: #DFF1D1;
+  }
+  
